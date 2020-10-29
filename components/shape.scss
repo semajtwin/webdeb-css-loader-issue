@@ -1,0 +1,15 @@
+.shape {
+  margin: 20px auto;
+  border: 1px solid gold;
+  width: 300px;
+  height: 300px;
+
+  &.square {
+    background: lightblue;
+  }
+
+  &.circle {
+    background: lightgreen;
+    border-radius: 50%;
+  }
+}
